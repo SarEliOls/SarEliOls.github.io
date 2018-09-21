@@ -7,6 +7,7 @@
 	padding: 10px;
 	text-align: center;
 }
+
 .buttonStyle {
 	border-radius: 4px;
 	border: thin solid #153EE5;
@@ -30,3 +31,10 @@
 	color: #050000;
 	cursor: pointer;
 }
+table, th, td {
+   border: 1px solid black; 
+   color: #DAA520;
+   text-align:center; 
+}
+
+body {background-color: #DAA520}
