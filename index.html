@@ -1,33 +1,48 @@
 <!DOCTYPE html>
 <html lang="en-us"></html>
-
+<html lang="en">
 <head>
-    <title>Sarah Olson</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  
+  <title>Sarah Olson</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
- 
-<body> 
+<body>
 
-<ul class="nav nav-pills">
-  <li class="nav-item">
-    <a class="nav-link" href="#">All</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">About Me</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Resume</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Projects</a>
-  </li>
-   <li class="nav-item">
-    <a class="nav-link" href="#">Contact Me</a>
-  </li>
-</ul>
+
+  <ul class="nav nav-tabs">
+    <li class="active"><a data-toggle="tab" href="#home">All</a></li>
+    <li><a data-toggle="tab" href="#menu1">About Me</a></li>
+    <li><a data-toggle="tab" href="#menu2">Resume</a></li>
+    <li><a data-toggle="tab" href="#menu3">Projects</a></li>
+    <li><a data-toggle="tab" href="#menu3">Contact Me</a></li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="tab-pane fade in active">
+      <h3>All</h3>
+      <p></p>
+    </div>
+    <div id="menu1" class="tab-pane fade">
+      <h3>About Me</h3>
+      <p></p>
+    </div>
+    <div id="menu2" class="tab-pane fade">
+      <h3>Resume</h3>
+      <p></p>
+    </div>
+    <div id="menu3" class="tab-pane fade">
+      <h3>Projects</h3>
+      <p></p>
+       <div id="menu3" class="tab-pane fade">
+      <h3>Contact Me</h3>
+      <p></p>
+    </div>
+  </div>
+</div>
 
 </body>
-
-
 </html>
+
